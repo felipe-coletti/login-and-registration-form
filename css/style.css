@@ -83,5 +83,5 @@ input, button{
 footer{
   justify-content: center;
   align-items: center;
-  min-height: 8vh;
+  height: 8vh;
 }
