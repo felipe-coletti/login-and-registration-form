@@ -47,10 +47,11 @@ a{
 }
 
 input{
+  border: 1px solid black;
   width: 92%;
 }
 
-button{
+form button{
   background: #7d00ab;
   border: none;
   font-weight: bold;
@@ -60,13 +61,21 @@ button{
   cursor: pointer;
 }
 
+div button{
+  background: transparent;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 2em;
+  width: 100%;
+  cursor: pointer;
+}
+
 fieldset, h1, h2, input, p, button{
   margin-bottom: 2%;
 }
 
 input, button{
-  padding-block: 2%;
-  padding-inline: 3%;
+  padding: 3%;
 }
 
 /* footer */
