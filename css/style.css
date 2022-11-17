@@ -70,7 +70,7 @@ div button{
   cursor: pointer;
 }
 
-fieldset, h1, h2, input, p, button{
+fieldset, h1, h2, input, main p, button{
   margin-bottom: 2%;
 }
 
