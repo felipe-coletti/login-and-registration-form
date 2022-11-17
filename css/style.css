@@ -24,7 +24,7 @@ fieldset{
   border: none;
   border-radius: 0.5em;
   padding: 5%;
-  box-shadow: 0 4px 8px 0 lightgray;
+  box-shadow: 0 4px 8px 0 #d3d3d3;
 }
 
 h1{
@@ -47,7 +47,7 @@ a{
 }
 
 input{
-  border: 1px solid black;
+  border: 1px solid #000;
   width: 92%;
 }
 
@@ -63,7 +63,7 @@ form button{
 
 div button{
   background: transparent;
-  border: 1px solid black;
+  border: 1px solid #000;
   font-weight: bold;
   border-radius: 2em;
   width: 100%;
