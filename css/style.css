@@ -46,7 +46,7 @@ a{
   text-decoration: none;
 }
 
-a:visited{
+main a:visited{
   color: #0000FF;
 }
 
