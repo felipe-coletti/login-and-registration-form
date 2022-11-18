@@ -50,6 +50,10 @@ main a:visited{
   color: #0000FF;
 }
 
+main a:hover{
+  text-decoration: underline;
+}
+
 input{
   border: 1px solid #000;
   border-radius: 0.25em;
