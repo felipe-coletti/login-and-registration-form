@@ -65,6 +65,9 @@ div button{
   background: transparent;
   border: 1px solid #000;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 2em;
   width: 100%;
   cursor: pointer;
