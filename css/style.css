@@ -70,6 +70,12 @@ div button{
   cursor: pointer;
 }
 
+button img{
+  padding-inline: 2.5%;
+  width: 15px;
+  height: 15px;
+}
+
 fieldset, h1, h2, input, main p, button{
   margin-bottom: 2%;
 }
