@@ -48,6 +48,7 @@ a{
 
 input{
   border: 1px solid #000;
+  border-radius: 0.25em;
   width: 92%;
 }
 
