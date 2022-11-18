@@ -103,3 +103,16 @@ footer{
   align-items: center;
   height: 8vh;
 }
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  padding-inline: 16px;
+}
+
+li a{
+  color: #000;
+}
