@@ -69,7 +69,7 @@ main a:hover {
 }
 
 input {
-  border: 1px solid #000;
+  border: 1px solid #ccc;
   border-radius: 0.25em;
   width: 93%;
 }
@@ -86,7 +86,7 @@ form button {
 
 #social-login button {
   background: transparent;
-  border: 1px solid #000;
+  border: 1px solid #ccc;
   font-weight: bold;
   display: flex;
   justify-content: center;
