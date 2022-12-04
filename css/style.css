@@ -28,12 +28,16 @@ main {
   height: 100%;
 }
 
+#right-side {
+  width: 350px;
+}
+
 fieldset {
   background-color: #fff;
   border: none;
   border-radius: 0.5em;
   padding: 5%;
-  width: 350px;
+  width: 90%;
   box-shadow: 0 4px 8px 0 #d3d3d3;
 }
 
@@ -67,7 +71,7 @@ main a:hover {
 input {
   border: 1px solid #000;
   border-radius: 0.25em;
-  width: 92%;
+  width: 93%;
 }
 
 form button {
@@ -127,4 +131,16 @@ li {
 
 li a {
   color: #000;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 880px) {
+  #left-side, #right-side {
+    
+  }
+
+  #left-side {
+    display: none;
+  }
 }
