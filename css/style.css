@@ -136,10 +136,6 @@ li a {
 /* responsiveness */
 
 @media screen and (max-width: 880px) {
-  #left-side, #right-side {
-    
-  }
-
   #left-side {
     display: none;
   }
