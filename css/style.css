@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -78,7 +78,7 @@ form button {
   background: #7d00ab;
   border: none;
   font-weight: bold;
-  border-radius: 2em;
+  border-radius: 0.25em;
   width: 100%;
   color: #fff;
   cursor: pointer;
@@ -91,8 +91,9 @@ form button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 2em;
+  border-radius: 0.25em;
   width: 100%;
+  color: gray;
   cursor: pointer;
 }
 
