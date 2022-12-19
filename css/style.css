@@ -153,11 +153,6 @@ li a {
     padding-inline: 0%;
   }
 
-  #right-side {
-    width: 100%;
-    height: 100%;
-  }
-
   fieldset {
     background-color: transparent;
     border-radius: 0em;
