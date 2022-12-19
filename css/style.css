@@ -146,6 +146,7 @@ li a {
 @media screen and (max-width: 562px) {
   main {
     background-color: #fff;
+    height: 100vh;
   }
 
   #left-side, #right-side {
