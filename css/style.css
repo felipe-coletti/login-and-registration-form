@@ -69,6 +69,7 @@ main a:hover {
 }
 
 input {
+  background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 0.25em;
   width: 93%;
@@ -143,6 +144,10 @@ li a {
 }
 
 @media screen and (max-width: 562px) {
+  main {
+    background-color: #fff;
+  }
+
   fieldset {
     background-color: transparent;
     border-radius: 0em;
