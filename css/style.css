@@ -172,7 +172,7 @@ li a {
   }
 
   li {
-    padding-inline: 0px;
-    padding-block: 16px;
+    padding-inline: 0;
+    padding-block: 1rem;
   }
 }
