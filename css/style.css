@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -75,7 +76,7 @@ input {
   background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 0.25em;
-  width: 93%;
+  width: 100%;
 }
 
 form button {
@@ -108,7 +109,7 @@ button img {
 }
 
 fieldset, h1, h2, input, #top p, button {
-  margin-bottom: 2.5%;
+  margin-bottom: 0.75rem;
 }
 
 input, button {
@@ -131,7 +132,7 @@ ul {
 }
 
 li {
-  padding-inline: 16px;
+  padding-inline: 1rem;
 }
 
 li a {
