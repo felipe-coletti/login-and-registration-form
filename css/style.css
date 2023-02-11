@@ -103,7 +103,7 @@ form button {
 }
 
 button img {
-  padding-inline: 2.5%;
+  margin-right: 2.5%;
   width: 0.9375rem;
   height: 0.9375rem;
 }
