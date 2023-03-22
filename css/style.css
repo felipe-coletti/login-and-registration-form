@@ -12,11 +12,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3rem;
   min-height: 94vh;
-}
-
-#left-side, #right-side {
-  padding-inline: 5%;
+  gap: 3rem;
 }
 
 #left-side {
@@ -155,7 +153,7 @@ li a {
   }
 
   #right-side {
-     width: 100%;
+    width: 100%;
   }
 
   fieldset {
