@@ -37,7 +37,7 @@ fieldset {
   background-color: #fff;
   border: none;
   border-radius: 0.5em;
-  padding: 5%;
+  padding: 1.5rem;
   width: 100%;
   box-shadow: 0 4px 8px 0 #d3d3d3;
 }
@@ -110,7 +110,7 @@ fieldset, h1, h2, input, #top p, button {
 }
 
 input, button {
-  padding: 3%;
+  padding: 0.75rem;
 }
 
 /* footer */
