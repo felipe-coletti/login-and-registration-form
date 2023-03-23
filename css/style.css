@@ -10,7 +10,7 @@
 main {
   background-color: #f9f9f9;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 3rem;
   min-height: 94vh;
