@@ -12,9 +12,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 3rem;
   min-height: 94vh;
-  gap: 3rem;
 }
 
 #image {
