@@ -5,8 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* content */
-
 main {
   background-color: #f9f9f9;
   display: flex;
@@ -104,8 +102,6 @@ input, button {
   padding: 0.75rem;
 }
 
-/* footer */
-
 footer {
   background-color: #f9f9f9;
   display: flex;
@@ -126,8 +122,6 @@ li {
 li a {
   color: #000;
 }
-
-/* responsiveness */
 
 @media screen and (max-width: 880px) {
   #image {
