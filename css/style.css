@@ -98,7 +98,7 @@ button img {
   height: 0.9375rem;
 }
 
-fieldset, h1, h2, input, #top p, form button, #first-social-button, #second-social-button {
+#top, h1, h2, input, #top p, form button, #first-social-button, #second-social-button {
   margin-bottom: 0.75rem;
 }
 
