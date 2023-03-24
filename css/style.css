@@ -133,6 +133,7 @@ li a {
   main {
     background-color: #fff;
     height: 100vh;
+    min-height: 33.125rem;
   }
 
   #right-side {
