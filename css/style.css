@@ -124,7 +124,7 @@ li a {
   }
 }
 
-@media screen and (max-width: 562px) {
+@media screen and (max-width: 560px) {
   main {
     background-color: #fff;
     height: 100vh;
