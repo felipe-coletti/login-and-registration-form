@@ -33,11 +33,7 @@ fieldset {
 
 h1 {
   font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.125rem;
-  font-weight: normal;
+  text-align: center;
 }
 
 p {
