@@ -149,10 +149,7 @@ li a {
   
   #top {
     margin-bottom: 0;
-  }
-  
-  #bottom {
-    padding-top: 0;
+    padding-bottom: 0;
   }
 
   ul {
