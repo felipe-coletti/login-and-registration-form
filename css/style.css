@@ -33,13 +33,15 @@ fieldset {
 
 h1 {
   font-size: 2rem;
-  text-align: center;
 }
 
-p {
+label, p {
   font-size: 0.875rem;
-  text-align: center;
   opacity: 65%;
+}
+
+h1, p {
+  text-align: center;
 }
 
 a {
@@ -90,12 +92,12 @@ button img {
   height: 0.9375rem;
 }
 
-#top, h1, h2, input, #top p, #sign-in-button, #first-social-button, #second-social-button {
-  margin-bottom: 0.75rem;
-}
-
 input, button {
   padding: 0.75rem;
+}
+
+#top, h1, h2, label, input, #top p, #sign-in-button, #first-social-button, #second-social-button {
+  margin-bottom: 0.75rem;
 }
 
 footer {
