@@ -124,12 +124,6 @@ li a {
   color: #000;
 }
 
-@media screen and (max-width: 880px) {
-  #image {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 480px) {
   main {
     background-color: #fff;
