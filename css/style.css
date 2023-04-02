@@ -13,21 +13,12 @@ main {
   min-height: 94vh;
 }
 
-#image {
-  width: 31.25rem;
-  height: 31.25rem;
-}
-
-#right-side {
-  width: 25rem;
-}
-
 fieldset {
   background-color: #fff;
   border: none;
   border-radius: 0.5em;
   padding: 1.5rem;
-  width: 100%;
+  width: 25rem;
   box-shadow: 0 4px 8px 0 #d3d3d3;
 }
 
@@ -131,13 +122,10 @@ li a {
     min-height: 31.0625rem;
   }
 
-  #right-side {
-    width: 100%;
-  }
-
   fieldset {
     background-color: transparent;
     border-radius: 0;
+    width: 100%;
     box-shadow: none;
     margin-bottom: 0;
   }
