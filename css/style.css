@@ -10,7 +10,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 94vh;
+  min-height: 100vh;
 }
 
 fieldset {
@@ -97,8 +97,6 @@ input, button {
 @media screen and (max-width: 480px) {
   main {
     background-color: #fff;
-    height: 100vh;
-    min-height: 31.0625rem;
   }
 
   fieldset {
