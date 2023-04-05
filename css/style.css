@@ -94,27 +94,6 @@ input, button {
   margin-bottom: 0.75rem;
 }
 
-footer {
-  background-color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 6vh;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-}
-
-li {
-  padding-inline: 1rem;
-}
-
-li a {
-  color: #000;
-}
-
 @media screen and (max-width: 480px) {
   main {
     background-color: #fff;
@@ -133,14 +112,5 @@ li a {
   #top {
     margin-bottom: 0;
     padding-bottom: 0;
-  }
-
-  ul {
-    display: block;
-  }
-
-  li {
-    padding-inline: 0;
-    padding-block: 1rem;
   }
 }
