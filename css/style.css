@@ -63,10 +63,6 @@ input, select {
   gap: 0.75rem;
 }
 
-#birthdate-area option:first {
-  opacity: 65%;
-}
-
 form button {
   background: #0077ee;
   border: none;
