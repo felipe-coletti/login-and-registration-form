@@ -98,17 +98,17 @@ input, button {
   main {
     background-color: #fff;
   }
-
+  
+  #top {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
   #top, #bottom {
     background-color: transparent;
     border-radius: 0;
     width: 100%;
     box-shadow: none;
     margin-bottom: 0;
-  }
-  
-  #top {
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
 }
