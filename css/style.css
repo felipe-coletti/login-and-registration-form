@@ -13,7 +13,7 @@ main {
   min-height: 100vh;
 }
 
-fieldset {
+#top, #bottom {
   background-color: #fff;
   border: none;
   border-radius: 0.5em;
@@ -99,7 +99,7 @@ input, button {
     background-color: #fff;
   }
 
-  fieldset {
+  #top, #bottom {
     background-color: transparent;
     border-radius: 0;
     width: 100%;
