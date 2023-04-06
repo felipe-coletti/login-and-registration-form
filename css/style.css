@@ -57,6 +57,12 @@ input, select {
   width: 100%;
 }
 
+#birthdate-area {
+  border: none;
+  display: flex;
+  gap: 0.75rem;
+}
+
 form button {
   background: #0077ee;
   border: none;
@@ -90,7 +96,7 @@ input, select, button {
   padding: 0.75rem;
 }
 
-#top, h1, legend, input, #top p, #sign-in-button, #first-social-button, #second-social-button {
+#top, h1, legend, input, #birthdate-area, #top p, #sign-in-button, #first-social-button, #second-social-button {
   margin-bottom: 0.75rem;
 }
 
