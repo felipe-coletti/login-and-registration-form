@@ -56,7 +56,6 @@ input {
   border: 1px solid #ccc;
   border-radius: 0.25em;
   width: 100%;
-  opacity: 100%;
 }
 
 input:focus {
@@ -74,6 +73,7 @@ input:focus ~ label {
   position: absolute;
   top: 50%;
   left: 0.75rem;
+  opacity: 100%;
   transform: translateY(-50%);
   transition: .3s;
 }
