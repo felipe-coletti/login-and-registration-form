@@ -75,6 +75,7 @@ input:focus ~ label {
   opacity: 65%;
   transform: translateY(-50%);
   transition: .3s;
+  pointer-events: none;
 }
 
 form button {
