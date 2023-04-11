@@ -64,6 +64,7 @@ input:focus {
 
 input:focus ~ label {
   top: 0;
+  background-color: #fff;
   color: #0077ee;
   font-size: 0.75rem;
   opacity: 100%;
