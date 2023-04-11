@@ -68,6 +68,7 @@ input:focus ~ label {
   background-color: #fff;
   color: #0077ee;
   font-size: 0.75rem;
+  padding-inline: 0.875rem;
   opacity: 100%;
 }
 
