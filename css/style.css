@@ -73,6 +73,7 @@ input:focus ~ label {
   position: absolute;
   top: 50%;
   left: 0.75rem;
+  font-size: 0.875rem;
   opacity: 100%;
   transform: translateY(-50%);
   transition: .3s;
