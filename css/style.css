@@ -27,15 +27,12 @@ h1 {
 }
 
 p {
+  font-size: 0.875rem;
   opacity: 65%;
 }
 
 h1, p {
   text-align: center;
-}
-
-legend, p {
-  font-size: 0.875rem;
 }
 
 a {
@@ -55,12 +52,6 @@ input, select {
   border: 1px solid #ccc;
   border-radius: 0.25em;
   width: 100%;
-}
-
-#birthdate-area {
-  border: none;
-  display: flex;
-  gap: 0.75rem;
 }
 
 form button {
@@ -96,7 +87,7 @@ input, select, button {
   padding: 0.75rem;
 }
 
-#top, h1, legend, input, #birthdate-area, #top p, #sign-in-button, #first-social-button, #second-social-button {
+#top, h1, input, #top p, #sign-in-button, #first-social-button, #second-social-button {
   margin-bottom: 0.75rem;
 }
 
