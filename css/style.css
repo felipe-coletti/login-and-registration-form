@@ -47,11 +47,28 @@ main a:hover {
   text-decoration: underline;
 }
 
-input, select {
+.input-field {
+  position: relative;
+}
+
+input {
   background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 0.25em;
   width: 100%;
+}
+
+input:focus ~ label {
+  top: 0;
+  font-size: 0.75rem;
+}
+
+.input-field {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  transition: .3s;
 }
 
 form button {
@@ -83,7 +100,7 @@ button img {
   height: 0.9375rem;
 }
 
-input, select, button {
+input, button {
   padding: 0.75rem;
 }
 
