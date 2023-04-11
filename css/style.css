@@ -59,6 +59,10 @@ input {
   outline: none;
 }
 
+input:focus {
+  border: 1px solid #0077ee;
+}
+
 input:focus ~ label {
   top: 0;
   background-color: #fff;
