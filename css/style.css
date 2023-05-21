@@ -126,6 +126,11 @@ input, button {
     background-color: #fff;
   }
   
+  #container {
+    width: 100%;
+    max-width: 25rem;
+  }
+  
   #top {
     margin-bottom: 0;
     padding-bottom: 0;
