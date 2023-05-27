@@ -79,7 +79,7 @@ form button {
   gap: 1.5rem;
 }
 
-#social-button {
+.social-button {
   background: transparent;
   border: 1px solid #ccc;
   display: flex;
@@ -91,7 +91,7 @@ form button {
   cursor: pointer;
 }
 
-#social-button img {
+.social-button img {
   width: 1rem;
   height: 1rem;
 }
