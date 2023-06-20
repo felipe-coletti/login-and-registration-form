@@ -27,7 +27,7 @@ h1 {
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: #5b5b5b;
 }
 
@@ -36,11 +36,9 @@ h1, p {
 }
 
 a {
-  text-decoration: none;
-}
-
-main a {
+  font-size: 0.875rem;
   color: #0072e3;
+  text-decoration: none;
 }
 
 main a:hover {
@@ -54,7 +52,7 @@ main a:hover {
 }
 
 label {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 input {
