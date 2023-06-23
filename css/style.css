@@ -47,11 +47,6 @@ p, a, button {
   font-size: 0.875rem;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
-
 .input-field {
   display: flex;
   flex-direction: column;
