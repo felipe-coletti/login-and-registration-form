@@ -105,7 +105,7 @@ input, button {
   padding: 0.75rem;
 }
 
-#top, h1, .input-field, form a, #top p, #sign-in-button {
+#top, h1, .input-field, form a, #sign-in-button, #top p {
   margin-bottom: 1rem;
 }
 
