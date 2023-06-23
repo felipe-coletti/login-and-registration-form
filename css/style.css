@@ -55,11 +55,11 @@ form {
 .input-field {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
 }
 
 label {
   font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 input {
