@@ -18,7 +18,8 @@ main {
   border: none;
   border-radius: 0.5rem;
   padding: 1.5rem;
-  width: 24rem;
+  width: 100%;
+  max-width: 24rem;
   box-shadow: 0 4px 8px 0 #d3d3d3;
 }
 
@@ -115,19 +116,8 @@ input, button {
   }
   
   #container {
-    width: 100%;
-    max-width: 22rem;
-  }
-  
-  #top {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  
-  #top, #bottom {
     background-color: transparent;
     border-radius: 0;
-    width: 100%;
     box-shadow: none;
   }
 }
