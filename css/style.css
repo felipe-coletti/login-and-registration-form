@@ -5,8 +5,18 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+  --primary-text-color: #000;
+  --secondary-text-color: #5b5b5b;
+  --highlight-color: #0072e3;
+  --border-color: #ccc;
+  --shadow-color: #d3d3d3;
+  --primary-background-color: #fff;
+  --secondary-background-color: #f9f9f9;
+}
+
 main {
-  background-color: #f9f9f9;
+  background-color: var(--secondary-background-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +24,7 @@ main {
 }
 
 #container {
-  background-color: #fff;
+  background-color: var(--primary-background-color);
   border: none;
   border-radius: 0.5rem;
   padding: 1.5rem;
@@ -32,7 +42,7 @@ h1 {
 }
 
 p {
-  color: #5b5b5b;
+  color: var(--secondary-text-color);
 }
 
 h1, p {
@@ -40,7 +50,7 @@ h1, p {
 }
 
 a {
-  color: #0072e3;
+  color: var(--highlight-color);
   text-decoration: none;
 }
 
@@ -64,18 +74,18 @@ label {
 
 input {
   background-color: transparent;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-color);
   border-radius: 0.25rem;
   width: 100%;
 }
 
 form button {
-  background-color: #0072e3;
+  background-color: var(--highlight-color);
   border: none;
   font-weight: bold;
   border-radius: 0.25rem;
   width: 100%;
-  color: #fff;
+  color: var(--primary-background-color);
   cursor: pointer;
 }
 
@@ -86,7 +96,7 @@ form button {
 
 .social-button {
   background-color: transparent;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +107,7 @@ form button {
 }
 
 .social-button:hover {
-  background-color: #f9f9f9;
+  background-color: var(--secondary-background-color);
 }
 
 .social-button img {
@@ -115,7 +125,7 @@ input, button {
 
 @media screen and (max-width: 480px) {
   main {
-    background-color: #fff;
+    background-color: var(--primary-background-color);
     align-items: unset;
   }
   
