@@ -30,7 +30,7 @@ main {
   padding: 1.5rem;
   width: 100%;
   max-width: 24rem;
-  box-shadow: 0 4px 8px 0 #d3d3d3;
+  box-shadow: 0 4px 8px 0 var(--shadow-color);
 }
 
 h1 {
