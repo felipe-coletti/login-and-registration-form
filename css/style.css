@@ -83,7 +83,7 @@ input {
   width: 100%;
 }
 
-.primaryButton {
+#primaryButton {
   background-color: var(--highlight-color);
   border: none;
   font-weight: bold;
