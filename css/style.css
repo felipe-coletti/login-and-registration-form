@@ -139,7 +139,7 @@ input, button {
   padding: 0.75rem;
 }
 
-.input-field, form .link, form p {
+.input-field, .form-links, form p {
   margin-bottom: 1rem;
 }
 
