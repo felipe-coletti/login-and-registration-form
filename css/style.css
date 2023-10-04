@@ -50,11 +50,14 @@ h1, p {
 }
 
 a {
-  color: var(--highlight-color);
   text-decoration: none;
 }
 
-a:hover {
+.link {
+  color: var(--highlight-color);
+}
+
+.link:hover {
   text-decoration: underline;
 }
 
