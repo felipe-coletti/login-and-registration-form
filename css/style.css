@@ -61,7 +61,7 @@ a {
   text-decoration: underline;
 }
 
-a, button, p {
+a, input, button, p {
   font-size: 0.875rem;
 }
 
