@@ -103,15 +103,18 @@ main {
 
 #division {
     align-items: center;
+    color: var(--secondary-text-color);
     display: flex;
     gap: 0.5rem;
+    font-size: 0.875rem;
     margin-block: 1rem;
 }
 
-.line {
+#division::before, #division::after {
     background-color: var(--border-color);
-    width: 100%;
+    content: "";
     height: 1px;
+    width: 100%;
 }
 
 #social-login {
