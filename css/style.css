@@ -62,7 +62,7 @@ main {
     color: var(--primary-text-color);
 }
 
-.input-field, .form-link, form .paragraph {
+.input-field, .form-link, #form .paragraph {
     margin-bottom: 1rem;
 }
 
@@ -137,7 +137,7 @@ main {
     background-color: var(--secondary-background-color);
 }
 
-.social-button img {
+.social-button .image {
     height: 1rem;
     width: 1rem;
 }
