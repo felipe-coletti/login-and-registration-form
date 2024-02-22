@@ -16,10 +16,10 @@
 }
 
 main {
+    align-items: center;
     background-color: var(--secondary-background-color);
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 
@@ -27,42 +27,18 @@ main {
     background-color: var(--primary-background-color);
     border: none;
     border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 var(--shadow-color);
+    max-width: 24rem;
     padding: 1.5rem;
     width: 100%;
-    max-width: 24rem;
-    box-shadow: 0 4px 8px 0 var(--shadow-color);
 }
 
-h1 {
+#title {
     font-size: 1.5rem;
 }
 
-h1, #content-area {
+#title, #content-area {
     margin-bottom: 1.5rem;
-}
-
-p {
-    color: var(--secondary-text-color);
-}
-
-h1, p {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-}
-
-.link {
-    color: var(--highlight-color);
-}
-
-.link:hover {
-    text-decoration: underline;
-}
-
-a, input, button, p {
-    font-size: 0.875rem;
 }
 
 .input-field {
@@ -70,35 +46,64 @@ a, input, button, p {
     flex-direction: column;
 }
 
-label {
+.label {
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
-input {
+.input {
     background-color: transparent;
     border: 1px solid var(--border-color);
     border-radius: 0.25rem;
     width: 100%;
 }
 
-h1, label, input {
+#title, .label, .input {
     color: var(--primary-text-color);
+}
+
+.input-field, .form-link, form .paragraph {
+    margin-bottom: 1rem;
+}
+
+.link {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 #primary-button {
     background-color: var(--highlight-color);
     border: none;
-    font-weight: bold;
     border-radius: 0.25rem;
-    width: 100%;
     color: var(--primary-background-color);
     cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.input, #primary-button {
+    padding: 0.75rem;
+}
+
+.paragraph {
+    color: var(--secondary-text-color);
+}
+
+#title, .paragraph {
+    text-align: center;
+}
+
+.input, .link, #primary-button, .paragraph {
+    font-size: 0.875rem;
 }
 
 #division {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 0.5rem;
     margin-block: 1rem;
 }
@@ -115,15 +120,15 @@ h1, label, input {
 }
 
 .social-button {
+    align-items: center;
     background-color: transparent;
     border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    cursor: pointer;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 0.25rem;
-    width: 100%;
     padding-block: 0.75rem;
-    cursor: pointer;
+    width: 100%;
 }
 
 .social-button:hover {
@@ -131,22 +136,14 @@ h1, label, input {
 }
 
 .social-button img {
-    width: 1rem;
     height: 1rem;
-}
-
-input, button {
-    padding: 0.75rem;
-}
-
-.input-field, .form-link, form p {
-    margin-bottom: 1rem;
+    width: 1rem;
 }
 
 @media screen and (max-width: 480px) {
     main {
-        background-color: var(--primary-background-color);
         align-items: unset;
+        background-color: var(--primary-background-color);
     }
     
     #container {
