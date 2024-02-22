@@ -75,15 +75,15 @@ label {
     margin-bottom: 0.5rem;
 }
 
-h1, label {
-    color: var(--primary-text-color);
-}
-
 input {
     background-color: transparent;
     border: 1px solid var(--border-color);
     border-radius: 0.25rem;
     width: 100%;
+}
+
+h1, label, input {
+    color: var(--primary-text-color);
 }
 
 #primary-button {
