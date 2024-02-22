@@ -21,6 +21,7 @@ main {
     display: flex;
     justify-content: center;
     min-height: 100vh;
+    padding: 1.5rem;
 }
 
 #container {
@@ -146,6 +147,7 @@ main {
     main {
         align-items: unset;
         background-color: var(--primary-background-color);
+        padding: 0;
     }
     
     #container {
