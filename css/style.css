@@ -97,7 +97,7 @@ main {
     text-align: center;
 }
 
-.input, .link, #primary-button, .paragraph {
+.input, .link, #primary-button, #division, .paragraph {
     font-size: 0.875rem;
 }
 
@@ -106,7 +106,6 @@ main {
     color: var(--secondary-text-color);
     display: flex;
     gap: 0.5rem;
-    font-size: 0.875rem;
     margin-block: 1rem;
 }
 
