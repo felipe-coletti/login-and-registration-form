@@ -15,7 +15,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+.main {
     align-items: center;
     background-color: var(--secondary-background-color);
     display: flex;
@@ -39,15 +39,21 @@ main {
     font-size: 1.5rem;
 }
 
-#content-area, #form {
+#content-area,
+#form {
     gap: 1rem;
 }
 
-.input-field {
+.input-field,
+#title-area {
     gap: 0.5rem;
 }
 
-#container, #content-area, #form, .input-field {
+#container,
+#content-area,
+#form,
+.input-field,
+#title-area {
     display: flex;
     flex-direction: column;
 }
@@ -64,7 +70,9 @@ main {
     width: 100%;
 }
 
-#title, .label, .input {
+#title,
+.label,
+.input {
     color: var(--primary-text-color);
 }
 
@@ -87,7 +95,8 @@ main {
     width: 100%;
 }
 
-.input, #primary-button {
+.input,
+#primary-button {
     padding: 0.75rem;
 }
 
@@ -95,11 +104,16 @@ main {
     color: var(--secondary-text-color);
 }
 
-#title, .paragraph {
+#title,
+.paragraph {
     text-align: center;
 }
 
-.input, .link, #primary-button, #division, .paragraph {
+.input,
+.link,
+#primary-button,
+#division,
+.paragraph {
     font-size: 0.875rem;
 }
 
@@ -110,9 +124,10 @@ main {
     gap: 0.5rem;
 }
 
-#division::before, #division::after {
+#division::before,
+#division::after {
     background-color: var(--border-color);
-    content: "";
+    content: '';
     height: 1px;
     width: 100%;
 }
@@ -144,12 +159,12 @@ main {
 }
 
 @media screen and (max-width: 480px) {
-    main {
+    .main {
         align-items: unset;
         background-color: var(--primary-background-color);
         padding: 0;
     }
-    
+
     #container {
         background-color: transparent;
         border-radius: 0;
