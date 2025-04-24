@@ -1,15 +1,38 @@
-const button = document.getElementById('primary-button')
-let countdown = 30
+const setupResendDelay = (formSelector, buttonSelector, delaySeconds = 20) => {
+    const form = document.querySelector(formSelector)
+    const button = form?.querySelector(buttonSelector)
 
-button.textContent = `Reenviar (${countdown}s)`
+    if (!form || !button) return
 
-const interval = setInterval(() => {
-    countdown--
-    button.textContent = `Reenviar (${countdown}s)`
+    const originalText = button.textContent.trim()
 
-    if (countdown <= 0) {
-        clearInterval(interval)
-        button.textContent = 'Reenviar'
-        button.disabled = false
+    const startButtonDelay = () => {
+        let counter = delaySeconds
+
+        button.disabled = true
+        button.textContent = `${originalText} (${counter}s)`
+
+        const interval = setInterval(() => {
+            counter--
+
+            if (counter > 0) {
+                button.textContent = `${originalText} (${counter}s)`
+            } else {
+                clearInterval(interval)
+                button.textContent = originalText
+                button.disabled = false
+            }
+        }, 1000)
     }
-}, 1000)
+
+    startButtonDelay()
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault()
+        startButtonDelay()
+    })
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    setupResendDelay('#form', '#primary-button', 15)
+})
