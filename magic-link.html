@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Teste - Entrar sem senha</title>
         <link rel="stylesheet" href="css/style.css" />
+        <script src="js/show-email.js" defer></script>
         <script src="js/magic-link.js" defer></script>
     </head>
     <body>
@@ -14,11 +15,11 @@
                 <div id="title-area">
                     <h1 id="title">Entrar sem senha</h1>
                     <p class="paragraph">
-                        Enviamos um link mágico para você acessar sua conta. Clique nele para continuar.
+                        Verifique sua caixa de entrada. Enviamos um link de uso único para <span id="user-email"></span>
                     </p>
                 </div>
                 <form id="form">
-                    <button type="submit" id="primary-button" disabled>Reenviar (20s)</button>
+                    <button type="submit" id="primary-button" disabled>Reenviar</button>
                 </form>
             </div>
         </main>

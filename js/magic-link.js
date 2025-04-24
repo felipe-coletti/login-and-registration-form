@@ -1,5 +1,7 @@
 const button = document.getElementById('primary-button')
-let countdown = 20
+let countdown = 30
+
+button.textContent = `Reenviar (${countdown}s)`
 
 const interval = setInterval(() => {
     countdown--
