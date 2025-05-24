@@ -1,0 +1,147 @@
+:root {
+	--color-border: #ccc;
+	--color-highlight: #0072e3;
+	--color-primary-background: #fff;
+	--color-primary-text: #000;
+	--color-secondary-background: #f9f9f9;
+	--color-secondary-text: #585858;
+	--color-shadow: #d9d9d9;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#main {
+	align-items: center;
+	background-color: var(--color-secondary-background);
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 1.5rem;
+}
+
+#container {
+	background-color: var(--color-primary-background);
+	border: none;
+	border-radius: 0.5rem;
+	box-shadow: 0 4px 8px 0 var(--color-shadow);
+	gap: 1.5rem;
+	padding: 1.5rem;
+	width: min(100%, 24rem);
+}
+
+#title-area {
+	gap: 0.25rem;
+}
+
+#title {
+	font-size: 1.5rem;
+}
+
+#form {
+	align-items: start;
+	gap: 1rem;
+}
+
+.label {
+	font-size: 1rem;
+	width: 100%;
+}
+
+.label,
+.inline-label {
+	gap: 0.5rem;
+}
+
+#container,
+#form,
+.label,
+#title-area {
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	background-color: transparent;
+	border: 1px solid var(--color-border);
+	border-radius: 0.25rem;
+	outline-color: var(--color-highlight);
+	width: 100%;
+}
+
+#title,
+.label,
+.inline-label,
+.input {
+	color: var(--color-primary-text);
+}
+
+.inline-label {
+	align-items: center;
+	display: flex;
+}
+
+.link {
+	color: var(--color-highlight);
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+#primary-button {
+	background-color: var(--color-highlight);
+	border: none;
+	border-radius: 0.25rem;
+	color: var(--color-primary-background);
+	cursor: pointer;
+	font-weight: bold;
+	width: 100%;
+}
+
+#primary-button:disabled {
+	background-color: var(--color-border);
+	color: var(--color-secondary-text);
+	cursor: not-allowed;
+	opacity: 0.3;
+}
+
+.input,
+#primary-button {
+	padding: 0.75rem;
+}
+
+.paragraph {
+	color: var(--color-secondary-text);
+}
+
+#title,
+.paragraph {
+	text-align: center;
+}
+
+.input,
+.link,
+#primary-button,
+.paragraph {
+	font-size: 0.875rem;
+}
+
+@media screen and (max-width: 480px) {
+	#main {
+		align-items: unset;
+		background-color: var(--color-primary-background);
+		padding: 0;
+	}
+
+	#container {
+		background-color: transparent;
+		border-radius: 0;
+		box-shadow: none;
+	}
+}
