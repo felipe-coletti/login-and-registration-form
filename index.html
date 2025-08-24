@@ -3,25 +3,28 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Teste - Entrar ou cadastrar-se</title>
-		<link rel="stylesheet" href="src/styles/global.css" />
-		<script src="src/scripts/form.js" defer></script>
+		<title>Entrar</title>
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<main id="main">
 			<div id="container">
-				<h1 id="title">Entrar</h1>
+				<div id="title-area">
+					<h1 id="title">Entrar</h1>
+				</div>
 				<form id="form">
 					<label class="label">
 						E-mail
-						<input type="email" class="input" autocomplete="email" required />
+						<input type="email" id="email-input" class="input" required />
 					</label>
-					<label class="inline-label">
-						<input type="checkbox" id="magic-link" />
-						Entrar sem senha
+					<label class="label">
+						Senha
+						<input type="password" id="password-input" class="input" required />
 					</label>
+					<a class="link" href="reset-password.html">Esqueceu a senha?</a>
 					<button type="submit" id="primary-button">Entrar</button>
 				</form>
+				<p class="paragraph">Não tem uma conta? <a class="link" href="sign-up.html">Cadastre-se</a></p>
 			</div>
 		</main>
 	</body>
